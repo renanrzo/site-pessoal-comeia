@@ -6,6 +6,7 @@ main {
     display: inline-block;
     margin: 50px;
     border: 1px solid #006778;
+    cursor: pointer;
 }
 
 .item-portfolio a {

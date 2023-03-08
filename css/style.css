@@ -25,23 +25,22 @@ nav {
     text-align: center;
 }
 
-nav > ul {
+nav ul {
     margin: 0;
-    padding: 15px;
+    padding: 25px;
 }
 
-nav > ul > li {
+nav ul li {
     display: inline;
-    padding: 1.8%;
+    margin: 50px;
 }
 
 
-li > a {
+nav ul li a {
     text-decoration: none;
-    color: #FFD124;
-    font-size: large;
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
+    color: #FFD124;
 }
 
 section {
@@ -54,3 +53,28 @@ section {
 footer {
     padding: 10px;
 }
+
+.button {
+    border: 0;
+    color: #0093AB;
+    /* padding: 25px; */
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #FFD124;
+    background-color: #006778;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li { 
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    nav ul li { 
+        margin: 3px;
+    }
+}
+
