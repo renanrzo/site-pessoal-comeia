@@ -1,12 +1,17 @@
 main {
     text-align: center;
 }
-
 .item-portfolio {
     display: inline-block;
     margin: 50px;
     border: 1px solid #006778;
     cursor: pointer;
+}
+
+.item-portfolio:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
 }
 
 .item-portfolio a {
